@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/navbar.jsx";
 import Header from "./components/header.jsx";
 import Slider from "./components/slider.jsx";
+import News from "./components/cards.jsx";
 import "./App.css";
 
 class App extends Component {
@@ -9,9 +10,10 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
-        <Navbar />
         <main className="container">
+          <Navbar />
           <Slider />
+          <News />
         </main>
       </React.Fragment>
     );
