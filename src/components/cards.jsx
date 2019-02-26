@@ -1,4 +1,5 @@
 import React from "react";
+import Newsimg from "./assets/news1.jpg";
 import {
   Card,
   Button,
@@ -14,12 +15,7 @@ const News = props => {
   return (
     <CardGroup>
       <Card>
-        <CardImg
-          top
-          width="100%"
-          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-          alt="Card image cap"
-        />
+        <CardImg top width="100%" src={Newsimg} alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
@@ -31,12 +27,7 @@ const News = props => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg
-          top
-          width="100%"
-          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-          alt="Card image cap"
-        />
+        <CardImg top width="100%" src={Newsimg} alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
@@ -48,12 +39,7 @@ const News = props => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg
-          top
-          width="100%"
-          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
-          alt="Card image cap"
-        />
+        <CardImg top width="100%" src={Newsimg} alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
