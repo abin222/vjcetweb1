@@ -3,7 +3,7 @@ import Navbar from "./components/navbar.jsx";
 import Header from "./components/header.jsx";
 import Slider from "./components/slider.jsx";
 import News from "./components/cards.jsx";
-import FooterPage from "./components/footer.jsx";
+
 import "./App.css";
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
           <Navbar />
           <Slider />
           <News />
-          <FooterPage />
+
         </main>
       </React.Fragment>
     );
